@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;           
+            /* 앞에 땡떙이 없앰 */
+            text-align: center;
+            border-top: 1px double red;
+            border-bottom: 1px solid blue;
+            padding: 10px 0; /*칸 내부 간격*/
+        }
+        ul li{
+            display: inline;
+            text-transform: uppercase;  /*대문자 변경*/
+            padding: 0 10px;
+            letter-spacing: 10px;
+        }
+        ul li a{
+            text-decoration: none;      /*택스트 링크에 걸린 줄 없앰*/
+        }
+        ul li a:hover{                  /*택스트 위에 마우스 가져다 댔을때*/
+            text-decoration: underline; /*밑줄이 그이게*/
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Bloge</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacte</a></li>
+        <li><a href="#">Email</a></li>
+    </ul>
+</body>
+</html>
